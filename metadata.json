@@ -1,0 +1,6 @@
+{
+  "name": "DC Airbnb Property Advisor",
+  "description": "Professional Airbnb pricing and marketing advisory report for Washington, DC property owners, backed by deterministic Inside Airbnb dataset calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

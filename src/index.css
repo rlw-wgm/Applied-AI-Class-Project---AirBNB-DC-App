@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #0f172a;
+    background-color: #fafbfc;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media print {
+  /* Hide non-report elements when printing or downloading PDF */
+  header, footer, .no-print, .questionnaire-section {
+    display: none !important;
+  }
+  
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .report-container {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+}
